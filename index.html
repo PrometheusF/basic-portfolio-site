@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deniz Utku Çelebi</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+<!-- NAVBAR (removed .reveal) -->
+<nav class="navbar">
+  <div class="container flex-between">
+    <a href="#hero" class="logo">Deniz Utku Çelebi</a>
+    <ul id="navLinks" class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="actions">
+      <button id="darkModeToggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero" class="hero reveal">
+  <div class="container text-center">
+    <h1 class="hero-title">Hi, I’m <span class="gradient-text">Deniz Utku Çelebi</span></h1>
+    <p id="typed" class="hero-subtitle"></p>
+    <a href="#projects" class="btn btn-primary">View My Work</a>
+  </div>
+</section>
+
+<!-- PARALLAX LAYER -->
+<div class="parallax-layer"></div>
+
+<!-- ABOUT -->
+<section id="about" class="about reveal">
+  <div class="container about-wrap">
+    <div class="about-img">
+      <img src="../assets/profile.jpg" alt="Profile of Deniz Utku Çelebi" loading="lazy">
+    </div>
+    <div class="about-text delay-1">
+      <h2>About Me</h2>
+      <p>IT student at Collegium Da Vinci. Skilled in HTML5, CSS3, modern JavaScript, and React/Vue. I build performant, accessible web apps and thrive in agile teams.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="projects reveal">
+  <div class="container projects-wrap">
+    <h2>Featured Project</h2>
+    <div class="grid-3">
+      <div class="card delay-1">
+        <img src="../assets/xdrivelogo.png" alt="XDrive Logo" loading="lazy">
+        <div class="card-content">
+          <h3>XDrive Rent A Car</h3>
+          <p>Responsive multi-page site showcasing taxi & rental services with sleek UI and contact integration.</p>
+          <a href="https://github.com/PrometheusF/XdriveProject" class="btn-sm">View Details ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact reveal">
+  <div class="container text-center">
+    <h2>Connect With Me</h2>
+    <div class="socials contact-socials">
+      <a href="https://x.com/PrometheusSF" target="_blank" aria-label="X">
+        <img src="../assets/xlogo.jpg" alt="X Logo" class="social-icon">
+      </a>
+      <a href="https://github.com/PrometheusF" target="_blank" aria-label="GitHub">
+        <img src="../assets/github.png" alt="GitHub" class="social-icon">
+      </a>
+      <a href="https://www.linkedin.com/in/deniz-utku-celebi-504430231" target="_blank" aria-label="LinkedIn">
+        <img src="../assets/LinkedIn_icon.svg.png" alt="LinkedIn" class="social-icon">
+      </a>
+      <a href="https://www.instagram.com/denizutkucelebi_/" target="_blank" aria-label="Instagram">
+        <img src="../assets/Instagram_icon.png" alt="Instagram" class="social-icon">
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SCRIPT -->
+<script src="../js/script.js" defer></script>
+</body>
+</html>
